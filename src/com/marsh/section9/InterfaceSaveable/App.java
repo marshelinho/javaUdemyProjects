@@ -1,4 +1,4 @@
-package com.marsh.section9;
+package com.marsh.section9.InterfaceSaveable;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -6,6 +6,10 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
+
+        ISaveable Werewolf = new Monster("Werewolf", 20, 40);
+        System.out.println(Werewolf);
+        saveObject(Werewolf);
 
     }
 
